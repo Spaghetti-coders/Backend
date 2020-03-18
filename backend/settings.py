@@ -214,7 +214,7 @@ LOGOUT_URL = '/accounts/logout/'
 LOGIN_REDIRECT_URL = '/swagger/'
 
 
-GOOGLE_MAPS_API_KEY = 'AIzaSyCPg5HcCTNtHAv2p3KIEQKwg5QcvtmM8D0'
+GOOGLE_MAPS_API_KEY = ''
 
 prod_db = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
